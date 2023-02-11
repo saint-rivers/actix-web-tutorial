@@ -1,5 +1,26 @@
 # Actix Web Tutorial
 
-> This is my first attempt at creating a REST API using Actix Web 
+## Note
 
-Reference: <https://codevoweb.com/build-a-simple-api-with-rust-and-actix-web/>
+- This is my first attempt at creating a REST API using Actix Web
+
+- This tutorial goes through setting up:
+    - REST endpoints
+    - Separating your code into files
+    - Creating a global app state 
+    - Basic CORS configuration
+
+- It does not go through:
+    - Setting up with a database
+
+## Commands
+
+Run the command below for hot reloads during development
+
+```bash
+cargo watch -q -c -w src/ -x run
+```
+
+## References
+
+<https://codevoweb.com/build-a-simple-api-with-rust-and-actix-web/>
